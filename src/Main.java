@@ -70,7 +70,7 @@ public class Main {
                 int damage = heroesDamage[i];
                 if (heroesAttackType[i] == bossDefence) {
                     Random random = new Random();
-                    int coefficient = random.nextInt(9) + 2; // 2-10
+                    int coefficient = random.nextInt(9) + 2; 
                     damage = heroesDamage[i] * coefficient;
                     System.out.println("Critical damage: " + damage);
                 }
